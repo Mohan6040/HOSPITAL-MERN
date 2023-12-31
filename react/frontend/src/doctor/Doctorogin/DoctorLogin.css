@@ -15,6 +15,7 @@
     background-color: rgba(231, 24, 24, 0.218);
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 /* ReCAPTCHA - Additional Styling */
@@ -26,6 +27,7 @@
 .login1 {
     height: 11cm;
     width: 8cm;
+    border: 3px solid #ccd8e6;
     padding: 20px;
     margin-top: 90px;
     border-radius: 20px;

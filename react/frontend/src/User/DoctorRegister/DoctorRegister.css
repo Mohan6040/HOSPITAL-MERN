@@ -18,12 +18,13 @@
   padding: 50px;
   margin-top: 10px;
   border-radius: 20px;
-  box-shadow: 0 0 60px #201b1b;
+  box-shadow: 0 0 60px #000000;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   margin-left: 20%;
   margin-right: 50%;
-  background-color: rgb(120 224 199);
+  border: 3px solid #ccd8e6;
+  background-color: rgba(77, 205, 175, 0.508);
 }
 input {
   outline: none;

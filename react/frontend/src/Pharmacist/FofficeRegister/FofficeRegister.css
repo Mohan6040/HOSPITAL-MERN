@@ -11,7 +11,7 @@
 }
 .register3 {
   height: 17cm;
-  width: 20cm;
+  width: 12cm;
   padding: 25px;
   margin-top: 90px;
   border-radius: 20px;
@@ -20,7 +20,8 @@
   backdrop-filter: blur(20px);
   margin-left: 20%;
   margin-right: 50%;
-  background-color: rgb(120 224 218);
+  border: 3px solid #ccd8e6;
+  background-color: rgba(79, 199, 193, 0.323);
 }
 input {
   outline: none;

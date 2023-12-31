@@ -16,11 +16,12 @@ margin-top: 20px;
     padding: 20px;
     margin-top: 90px;
     border-radius: 20px;
-    box-shadow: 0 0 60px #a18585;
+    box-shadow: 0 0 60px #000000;
     backdrop-filter: blur(20px);
     margin-left: 20%;
+    border: 3px solid #ccd8e6;
     margin-right: 20%;
-    background-color: rgb(221, 191, 70);
+    background-color: rgba(221, 191, 70, 0.581);
 }
 input{
     outline: none;
