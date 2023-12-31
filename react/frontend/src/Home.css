@@ -1,0 +1,64 @@
+/* .container {
+  margin-top: 1.5cm;
+  height: 15cm;
+  width: 100%;
+  background: rgb(224, 147, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor, .pharmacist, .office-executive, .patient {
+  height: 8cm;
+  width: 7cm;
+  background-color: rgb(55, 235, 241);
+  margin: 1cm;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  height: 4cm;
+  width: 4cm;
+  border-radius: 50%;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button {
+  height: 2cm;
+  width: 6cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 0.5cm;
+  height: 1cm;
+  width: 2cm;
+  border-radius: 10px;
+  border: none;
+}
+
+.singin, .singup {
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+.singin {
+  background-color: rgb(220, 148, 13);
+}
+
+.singup {
+  background-color: rgb(220, 148, 13);
+} */
