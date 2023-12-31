@@ -54,10 +54,13 @@ export const Navigation = () => {
       </div>
       <div style={navlinksStyle}>
         <Link to="/Pharmacisthome" style={navLinkStyle}>
-          Home
+          HOME
+        </Link>
+        <Link to="/PharmaProfile" style={navLinkStyle}>
+        EDIT PROFILE
         </Link>
         <Link to="/" style={{ textDecoration: "none", color: "red" }}>
-          Logout
+          LOGOUT
         </Link>
       </div>
     </div>

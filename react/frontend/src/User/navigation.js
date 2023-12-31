@@ -53,6 +53,9 @@ export const Navigation = () => {
         <Link to="/UserMedicene" style={{ textDecoration: "none", color: "#fff" }}>
           MEDICINE
         </Link>
+        <Link to="/UserProfile" style={{ textDecoration: "none", color: "#fff" }}>
+          EDIT PROFILE
+        </Link>
         <Link to="/" style={{ textDecoration: "none", color: "red" }}>
          LOGOUT
         </Link>

@@ -52,6 +52,13 @@ export const Navigation = () => {
         <Link to="/ViewAll" style={logoutLinkStyle}>
           PATIENTS LIST
         </Link>
+        {/* <Link to="/ViewAll" style={logoutLinkStyle}>
+          View All
+        </Link> */}
+        <Link to="/FrontOfficeProfile" style={logoutLinkStyle}>
+        EDIT PROFILE
+        </Link>
+       
        
         <Link to="/" style={{ textDecoration: "none", color: "red" }}>
           LOGOUT

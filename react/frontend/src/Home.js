@@ -28,6 +28,12 @@ import DoctorHome from "./doctor/Doctorhome/Doctorhome";
 import Frontofficehome from "./Front_office/Frontofficehome/frontofficehome";
 import Pharmacisthome from "./Pharmacist/Pharmacisthome/pharmacisthome";
 import DoctorList from "./doctor/Doctorlist/doctorlist";
+import { DoctorProfile } from "./doctor/Profile/Profile";
+import { FrontOfficeProfile } from "./Front_office/Profile/Profile";
+import { PharmaProfile } from "./Pharmacist/Profile/Profile";
+import { UserProfile } from "./User/Profile/Profile";
+
+import ViewProfile from "./doctor/ViewProfile/ViewProfile";
 
 
 import Landingpage from "./Landingpage";
@@ -52,6 +58,8 @@ return(<Routes>
 <Route path="/DoctorForgotPassword"element={<DoctorForgotPassword/>}/>
 <Route path="/Doctorhome" element={<DoctorHome />}/>;
 <Route path="/Doctorlist" element={<DoctorList/>}/>;
+<Route path="/DoctorProfile"element={<DoctorProfile/>}/>
+<Route path="/ViewProfile" element={<ViewProfile/>}/>
 
 
 
@@ -64,12 +72,19 @@ return(<Routes>
 <Route path="/Apporve"element={<Apporve/>}/>
 <Route path="/Book"element={<Book/>}/>
 <Route path="/ViewAll"element={<ViewAll/>}/>
+<Route path="/FrontOfficeProfile"element={<FrontOfficeProfile/>}/>
+
+
 
 <Route path="/PharmacistForgotPassword"element={<PharmacistForgotPassword/>}/>
 <Route path="/PharmacistRegister"element={<PharmacistRegister/>}/>
 <Route path="/Pharmacisthome"element={<Pharmacisthome/>}/>
 <Route path="/PharmacistLogin"element={<PharmacistLogin/>}/>
 <Route path="/Medicene"element={<Medicene/>}/>
+<Route path="/PharmaProfile"element={<PharmaProfile/>}/>
+
+
+
 
 <Route path="/UserForgotPassword"element={<UserForgotPassword/>}/>
 <Route path="/UserRegister"element={<UserRegister/>}/>
@@ -78,6 +93,7 @@ return(<Routes>
 <Route path="/Userhome"element={<Userhome/>}/>
 <Route path="/Userchat"element={<Userchat/>}/>
 <Route path="/UserMedicene"element={<UserMedicene/>}/>
+<Route path="/UserProfile"element={<UserProfile/>}/>
 
 
 
